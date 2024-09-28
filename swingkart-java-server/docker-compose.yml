@@ -1,0 +1,20 @@
+services:
+  mongo:
+    image: mongo
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: swingkart
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: productdb
+    ports:
+      - "27017:27017"
+
+  postgres:
+    image: postgres:17.0-alpine3.19
+    container_name: postgres
+    environment:
+      POSTGRES_USER: swingkart
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+

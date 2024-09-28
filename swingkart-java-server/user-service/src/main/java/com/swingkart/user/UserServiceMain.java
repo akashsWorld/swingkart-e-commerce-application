@@ -1,7 +1,12 @@
 package com.swingkart.user;
 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class UserServiceMain {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(UserServiceMain.class, args);
     }
 }

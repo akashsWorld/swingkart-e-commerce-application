@@ -1,0 +1,14 @@
+server:
+  port: 8502
+spring:
+  application:
+    name: product-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/productdb
+      database: productdb
+      host: localhost
+      port: 27017
+      username: swingkart
+      password: password
+      authentication-database: admin
