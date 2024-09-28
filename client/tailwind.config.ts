@@ -9,11 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "primary-gradient": "linear-gradient(90deg, rgba(32,22,199,1) 0%, rgba(62,160,255,1) 100%)",
+      }
     },
   },
   plugins: [],
 };
 export default config;
+
