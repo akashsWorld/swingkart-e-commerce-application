@@ -9,4 +9,5 @@ public class UserServiceMain {
     public static void main(String[] args) {
         SpringApplication.run(UserServiceMain.class, args);
     }
+
 }

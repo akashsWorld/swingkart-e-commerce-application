@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: address-service
+  data:
+    mongodb:
+      username: swingkart
+      password: password
+      port: 27017
+      host: localhost
+      database: addressdb
+      uri: mongodb://localhost:27017/addressdb
+      authentication-database: admin
+server:
+  port: 8503
